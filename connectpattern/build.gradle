@@ -10,8 +10,8 @@ ext {
 
     libraryDescription = 'Draw a pattern to confirm the action, unlock the screen etc.'
 
-    siteUrl = 'https://github.com/BCGDV-ASIA/android-widget-connectpattern'
-    gitUrl = 'https://github.com/BCGDV-ASIA/android-widget-connectpattern.git'
+    siteUrl = 'https://github.com/RunYouCleverBoy/android-widget-connectpattern'
+    gitUrl = 'https://github.com/RunYouCleverBoy/android-widget-connectpattern.git'
 
     libraryVersion = '0.4'
 
