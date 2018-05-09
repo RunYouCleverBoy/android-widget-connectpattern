@@ -204,7 +204,7 @@ public class ConnectPatternView extends View {
      * Setup circles on a screen
      */
     private void drawLineToTouchPoint(Canvas canvas) {
-        if (touchPoint.height() > 0 && touchPoint.width() > 0) {
+        if (!connectionOrder.isEmpty() && touchPoint.height() > 0 && touchPoint.width() > 0) {
             drawLine(canvas, circles[connectionOrder.get(connectionOrder.size() - 1)], touchPoint);
         }
     }
@@ -212,7 +212,7 @@ public class ConnectPatternView extends View {
     /**
      * Draw lines between the connectors
      *
-     * @param canvas
+     * @param canvas Canvas to apply on
      */
     private void drawLines(Canvas canvas) {
         for (int i = 0; i < connectionOrder.size() - 1; i++) {
